@@ -1,0 +1,24 @@
+
+html,body{
+    background-color: #111111;
+    color: #41FF00; /* classic terminal green */
+    font-family: monospace;
+    padding:24px;
+}
+button {
+    background-color: transparent;
+    border: 1px solid #41FF00;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    color: #41FF00; /* classic terminal green */
+    font-family: monospace;
+}
+button:hover {
+    border-color: lightgreen;
+    color: lightgreen;
+    transition: background-color 0.3s, color 0.3s;
+}
