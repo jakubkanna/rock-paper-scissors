@@ -68,7 +68,7 @@ let showMessage = (message) => {
   clearMessages(); // Clear previous messages
   const div = document.createElement("div");
   div.className = "message";
-  div.innerHTML = `---ROUND_${roundNumber}--Fight!--- <br><br>${message}<br><br>Score:_P(${playerScore}):C(${computerScore})`;
+  div.innerHTML = `---ROUND ${roundNumber}--Fight!--- <br><br>${message}<br><br>Score: P(${playerScore}):C(${computerScore})`;
 
   if (playerScore === 5 || computerScore === 5) {
     if (playerScore === 5) {
